@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controllers.RegisterController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="655.0" prefWidth="979.0">
+         <children>
+            <TextField fx:id="txtEmail" layoutX="595.0" layoutY="268.0" prefHeight="36.0" prefWidth="255.0" promptText="Email" />
+            <PasswordField fx:id="txtPassword" layoutX="595.0" layoutY="331.0" prefHeight="36.0" prefWidth="255.0" promptText="Password" />
+            <JFXButton layoutX="669.0" layoutY="475.0" onAction="#signUpOnAction" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #112817; -fx-background-radius: 25; -fx-cursor: hand;" text="Register" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </JFXButton>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="563.0" layoutY="138.0" prefHeight="51.0" prefWidth="320.0" text="Register" textAlignment="CENTER" textFill="#577c62">
+               <font>
+                  <Font name="Bell MT Italic" size="39.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="655.0" fitWidth="451.0">
+               <image>
+                  <Image url="@../img/4507c57013d379d050550dcb77e752c1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
