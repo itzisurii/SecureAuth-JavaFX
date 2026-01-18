@@ -119,6 +119,9 @@ public class LoginController {
         return  loginServiceimpl.needRegistration(email, password);
     }
 
-
+    public void clearFeilds(){
+        txtEmail.clear();
+        txtPassword.clear();
+    }
 
 }
