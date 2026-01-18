@@ -12,21 +12,21 @@
 
 <AnchorPane prefHeight="655.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controllers.LoginController">
    <children>
-      <AnchorPane prefHeight="655.0" prefWidth="979.0" style="-fx-background-color: linear-gradient(from 0% 0% to 0% 100% white 0% rgb(6 78 59) 100%);;">
+      <AnchorPane prefHeight="655.0" prefWidth="979.0">
          <children>
-            <TextField fx:id="txtUsername" layoutX="595.0" layoutY="255.0" prefHeight="36.0" prefWidth="255.0" promptText="Username" />
-            <PasswordField fx:id="txtEmail" layoutX="595.0" layoutY="317.0" prefHeight="36.0" prefWidth="255.0" promptText="Email" />
-            <JFXButton layoutX="669.0" layoutY="453.0" onAction="#signUpOnAction" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #112817; -fx-background-radius: 25; -fx-cursor: hand;" text="Sign Up" textFill="WHITE">
+            <TextField fx:id="txtEmail" layoutX="595.0" layoutY="253.0" prefHeight="36.0" prefWidth="255.0" promptText="Email" />
+            <PasswordField fx:id="txtPassword" layoutX="595.0" layoutY="318.0" prefHeight="36.0" prefWidth="255.0" promptText="Password" />
+            <JFXButton layoutX="669.0" layoutY="475.0" onAction="#signUpOnAction" prefHeight="36.0" prefWidth="107.0" style="-fx-background-color: #112817; -fx-background-radius: 25; -fx-cursor: hand;" text="Sign Up" textFill="WHITE">
                <font>
                   <Font name="Berlin Sans FB" size="15.0" />
                </font>
             </JFXButton>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="563.0" layoutY="149.0" prefHeight="51.0" prefWidth="320.0" text="Login to your account" textAlignment="CENTER" textFill="#577c62">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="563.0" layoutY="138.0" prefHeight="51.0" prefWidth="320.0" text="Login to your account" textAlignment="CENTER" textFill="#577c62">
                <font>
                   <Font name="Bell MT Italic" size="39.0" />
                </font>
             </Label>
-            <Label layoutX="633.0" layoutY="367.0" onMouseClicked="#onRegisterClick" style="-fx-underline: 10; -fx-cursor: hand; -fx-underline: true;" text="Don’t have an account? Register here" textFill="#254026" underline="true">
+            <Label layoutX="633.0" layoutY="371.0" onMouseClicked="#onRegisterClick" style="-fx-underline: 10; -fx-cursor: hand; -fx-underline: true;" text="Don’t have an account? Register here" textFill="#254026" underline="true">
                <font>
                   <Font size="11.0" />
                </font>
