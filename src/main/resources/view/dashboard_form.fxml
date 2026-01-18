@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controllers.DashboardController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="65.0" prefHeight="51.0" prefWidth="320.0" text="WELCOME" textAlignment="CENTER" textFill="#577c62">
+         <font>
+            <Font name="Bell MT Italic" size="39.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="215.0" layoutY="215.0" onAction="#logOutOnAction" prefHeight="62.0" prefWidth="171.0" style="-fx-background-color: #112817; -fx-background-radius: 25; -fx-cursor: hand;" text="LogOut" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
